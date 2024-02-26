@@ -46,7 +46,7 @@ python multi_weak_strong_oracle.py \
 	--strong_model_name vits14_dino \
 	--n_epochs 20 --lr 1e-4
 
-# 48-fold specialist
+# 8-fold specialist
 python multi_weak_strong_oracle.py \
 	${CKPTDIR}/0_125/head-${EPOCH}-${ITER}.pth.tar \
 	${CKPTDIR}/125_250/head-${EPOCH}-${ITER}.pth.tar \
