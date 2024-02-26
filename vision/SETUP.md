@@ -11,7 +11,6 @@ Download ImageNet data, see torchvision for instructions; should contain files `
 ### Prepare Superviser
 
 ```bash
-cd vision
 bash script/prepare_imagenet.sh
 ```
 
