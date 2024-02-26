@@ -254,7 +254,7 @@ def main_worker(gpu, ngpus_per_node, args):
         linear_keyword = 'fc'
     print("=> loading default '{}'".format(args.arch))
 
-    # Warning: simplify alexnet for weak superviser
+    # Warning: simplify alexnet for weak supervisor
     if args.arch.startswith('alexnet'):
         num_features = model.classifier[1].in_features
         num_outputs = model.classifier[6].out_features
