@@ -1,0 +1,5 @@
+torchvision
+scipy
+gdown
+seaborn
+pandas
